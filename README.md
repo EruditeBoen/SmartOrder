@@ -11,7 +11,17 @@
 git clone https://github.com/EruditeBoen/SmartOrder.git
 cd SmartOrder
 source bobo/bin/activate
+./download_model.sh
 ```
+If you get a permission when running the shell script:
+```shell
+chmod -R 777
+```
+Feel free to take a look at the script if you are skeptical.
+```shell
+nano ./download_model.sh
+```
+
 ### ONNX Runtime
 For Nvidia GPU computers:
 `pip install onnxruntime-gpu`
