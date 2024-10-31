@@ -43,5 +43,4 @@ Otherwise:
 
 # Credit:
 * Katsuya Hyodo for YOLOv7 model: [https://github.com/PINTO0309/PINTO_model_zoo/tree/main/307_YOLOv7]
-* IbaiGorordo: [https://github.com/ibaiGorordo/ONNX-YOLOv7-Object-Detection/tree/main]
-
+* Ibai Gorordo: [https://github.com/ibaiGorordo/ONNX-YOLOv7-Object-Detection/tree/main]
