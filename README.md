@@ -34,11 +34,9 @@ Otherwise:
  * **Image inference**:
  ```shell
  python Order.py
+```
 
-# References:
-* YOLOv8 model: [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
-* YOLOv5 model: [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5)
-* YOLOv6 model: [https://github.com/meituan/YOLOv6](https://github.com/meituan/YOLOv6)
-* YOLOv7 model: [https://github.com/WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7)
-* PINTO0309's model zoo: [https://github.com/PINTO0309/PINTO_model_zoo](https://github.com/PINTO0309/PINTO_model_zoo)
-* PINTO0309's model conversion tool: [https://github.com/PINTO0309/openvino2tensorflow](https://github.com/PINTO0309/openvino2tensorflow)
+# Credit:
+* YOLOv7 model: [https://github.com/PINTO0309/PINTO_model_zoo/tree/main/307_YOLOv7]
+* ibaiGorordo: [https://github.com/ibaiGorordo/ONNX-YOLOv7-Object-Detection/tree/main]
+
