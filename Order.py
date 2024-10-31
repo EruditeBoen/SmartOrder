@@ -20,11 +20,14 @@ props = { p.key : p.value for p in m.metadata_props }
 if 'names' in props:
     names = ast.literal_eval(props['names'])
 
+print("Here are the classes within the model")
+print(names)
+
 cv2.namedWindow("Detected Objects", cv2.WINDOW_NORMAL)
 
 ingredients = names
 
-order_input = [ingredient for ingredient in input("What would you like on your burger? (State ingredients seperated by a space): ").split(" ")]
+order_input = [ingredient for ingredient in input("What would you like on your burger? (List something from the list above and state ingredients seperated by a space): ").split(" ")]
 # order_input = ["mouse", "spoon"]
 
 on_burger = [""]
