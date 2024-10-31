@@ -4,7 +4,7 @@
 # Requirements
 
  * Library requirements are already installed in the bobo venv
- * Linux based shell
+ * Linux based shell (only to run the shell script)
  * Python3.8 reccomended
 
 # Installation
