@@ -16,7 +16,7 @@ source bobo/bin/activate
 ```
 If you get a permission when running the shell script:
 ```shell
-chmod -R 777
+chmod -R 777 .
 ```
 Feel free to take a look at the script if you are skeptical.
 ```shell
