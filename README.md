@@ -22,6 +22,10 @@ Feel free to take a look at the script if you are skeptical.
 ```shell
 nano ./download_model.sh
 ```
+Then run the script again.
+```shell
+./download_model.sh
+```
 
 ### ONNX Runtime
 For Nvidia GPU computers:
