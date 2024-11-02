@@ -12,10 +12,10 @@ width = 3840
 height = 2160
 
 # Initialize YOLOv7 object detector
-model_path = "models/yolov7_384x640.onnx"
+model_path = "models/yolov7_training.onnx"
 yolov7_detector = YOLOv7(model_path, conf_thres=0.5, iou_thres=0.5)
 
-m = onnx.load('models/yolov7_384x640.onnx')
+m = onnx.load('models/yolov7_training.onnx')
 props = { p.key : p.value for p in m.metadata_props }
 if 'names' in props:
     names = ast.literal_eval(props['names'])
